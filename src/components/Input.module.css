@@ -1,0 +1,48 @@
+.inputForm {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  margin-top: 200px;
+}
+
+.input {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  padding: 16px;
+  height: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  flex: 1;
+  color: var(--gray-100);
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+}
+
+.input:focus {
+  border: 1px solid var(--purple-dark);
+}
+
+.button {
+  all: unset;
+  font-size: 14px;
+  gap: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.button:hover {
+  background-color: var(--blue);
+}

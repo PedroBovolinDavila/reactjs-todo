@@ -1,0 +1,41 @@
+.taskCard {
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.taskTitle > p {
+  font-size: 14px;
+  color: var(--gray-100);
+}
+
+.removeButtom {
+  all: unset;
+  line-height: 0;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.removeButtom:hover {
+  background-color: var(--gray-400);
+}
+
+.removeButtom:focus {
+  box-shadow: 0 0 0 0px;
+}
